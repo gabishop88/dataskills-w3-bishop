@@ -26,15 +26,17 @@
 
 5.  (1 pt) During Part 3, step 4, you toggled between branches on GitHub.com. What differences did you see between `main` and `new-analysis` branches?
 
-<YOUR ANSWER>
+> When I toggle the branch to `new-analysis` then I see a new push and it says that it is '1 commit ahead of `main`'. When I go into the `src/` folder, I can see `src/main.py` with my 'analysis code'.
+
+> After switching back to the `main` branch, I can no longer see the `src` folder that holds `main.py` on my `new-analysis` branch. I can't see the folder because it only contains one file (`main.py`) on the local machine, and git does not track the folder before it has a file inside of it that git is tracking. The reason that `main.py` is not available is because the commit that I made was created on the `new-analysis` branch, so when I pushed that commit, it only exists on that branch. This means that `main` is 1 commit behind `new-analysis`. However, it doesn't say that like it did when I was in that branch because `main` is the default branch so the other branches are tracked compared to it.
 
 6.  (2 pts) During Part 3, step 5, you changed your local branch from `new-analysis` to `main`. After doing this, look at the location where you had saved your new script. What do you see? Why? What happened?
 
-<YOUR ANSWER>
+> When I clicked back to checkout `main`, I saw the `src` folder disappear, but the `data` directory still exists which is interesting. The `src` folder and `src/main.py` are both gone, which makes sense becauase those changes were not sent to the main branch since that commit was made on the `new-analysis` branch. I find it interesting that local folders like `data` still exist even though they are not tracked by the branch, but the `src` folder was removed because it is not tracked. I am guessing this is because when I committed `main.py` to the `new-analysis` branch, it saved the operation of creating `main.py` in `src/`. Then, when I did git checkout to the `main` branch, it saw that the difference between the branches was to create that folder & file, so it undid that change (thereby deleting the directory as well as the file) in order to match my local files to the remote.
 
 7.  (1 pt) During Part 3, step 6, you changed your local branch back to `new-analysis`. After doing this, look at the location where you had saved your new script. What do you see? Why?
 
-<YOUR ANSWER>
+> The script is back, along with the `src/` folder. This is because it redid the committed operation that separates `main` from `new-analysis`. In other words, the difference between `main` and `new-analysis` is one commit, and the change saved by that commit is to create `src/main.py` and add the one line of code `print("HELLO DATASKILLS")`. When I did checkout to `new-analysis` it restored my local state to that of the branch by making those changes that differentiate the two branches. If the branches were separated more, such as if I had made commits on main as well, then it may have to undo local changes to revert back to where they were the same, then redo the changes that separate the two branches.
 
 8.  (1 pt) During Part 3, step 8, you created a pull request. Describe what you see on the pull request page.
 
