@@ -52,11 +52,11 @@ Alex Smilor
 
 11. (1 pt) To be answered by you (repo owner): After pulling changes, what do you see as the answer to question 10, above? Did you write those answers?
 
-<YOUR ANSWER>
+> After pulling changes, I could see his name in my worksheet. I did not write it there.
 
 12. (1 pt) What is the best flavor of ice cream?
 
-<ANSWER>
+Cookie Dough
 
 13. (2 pts) During Part 4, step 7, you attempted to push changes that likely conflicted with changes your collaborator had made. What happened? Explain, step by step, what you had to do to resolve the merge conflict.
 
