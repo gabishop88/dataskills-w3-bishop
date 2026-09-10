@@ -40,11 +40,11 @@
 
 8.  (1 pt) During Part 3, step 8, you created a pull request. Describe what you see on the pull request page.
 
-<YOUR ANSWER>
+> On the Pull Request page, I see a page titled 'Comparing changes'. It has a little box that shows `base:main` <- `compare:new-analysis` and 'Able to merge'. This shows me which branch I am merging with which, and that they do not have any comflicts. It also allows me to add a title and description. Below the description box is a 'Create pull request' button that also lets me create a draft pull request if I wish. Underneath is some more information about the new-analysis branch that I am merging. This includes the number of commits, files changed, contributors, and the commits and file changes in question are shown below that.
 
 9.  (2 pts) During Part 3, step 11, you have merged your branches and are back on the `main` branch. Look again at the location where you had saved your new script. What do you see? Is your answer any different to your answer to question 6?
 
-<YOUR ANSWER>
+> it looks great. It looks like how my local files looked when I was on the new-analysis branch, not the main branch, since they are merged and there is currently no difference between them.
 
 10. (1 pt) To be answered by your neighboring collaborator: What is your name?
 
