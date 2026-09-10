@@ -48,7 +48,7 @@
 
 10. (1 pt) To be answered by your neighboring collaborator: What is your name?
 
-\<COLLABORATOR'S NAME\>
+Alex Smilor
 
 11. (1 pt) To be answered by you (repo owner): After pulling changes, what do you see as the answer to question 10, above? Did you write those answers?
 
