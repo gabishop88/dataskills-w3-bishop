@@ -22,7 +22,7 @@
 
 4.  (2 pts) During Part 2, step 7, you examined the History panel. What do you see shown for DataSkills_Week3_Activity.md? Is the entire file shown? What do the colors mean?
 
-<YOUR ANSWER>
+> When I open up the history for the worksheet file, I see a git diff. This shows the old version (on the left) and the version with the changes applied (on the right). I see red highlights on the right showing the lines that I deleted. in this case, I deleted three lines that all say `<YOUR ANSWER>`. There are also dashed areas with no line numbers under these red areas that show the space that is taken up by the incoming edits which are shown to the right. On that right side I just see my three answers highlighted in green. These areas show the additions I made to the file. In addition to the red and green highlights, the diff shows little + and - symbols next to the line numbers. 
 
 5.  (1 pt) During Part 3, step 4, you toggled between branches on GitHub.com. What differences did you see between `main` and `new-analysis` branches?
 
