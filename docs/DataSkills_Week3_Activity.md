@@ -60,12 +60,12 @@ Cookie Dough
 
 13. (2 pts) During Part 4, step 7, you attempted to push changes that likely conflicted with changes your collaborator had made. What happened? Explain, step by step, what you had to do to resolve the merge conflict.
 
-<YOUR ANSWER>
+> At first, I could not push because there was a conflict on the remote. However, it wouldn't prompt me to merge. I could Pull (Rebase) to resolve the merge conflict, which let me then push my changes normally. I think that there is another way to handle the merge conflict, but Since this worked, it was the way that I resolved the conflict. It still went through the normal process where it took me to each conflict and I had to choose to accept the incoming changes or local changes. 
 
 14. (1 pt) During Part 5, step 1, you chose to ignore a file by choosing one of three options. Explain how you would envision using each of these three options in practice. Which one did you choose in this case, and why?
 
-<YOUR ANSWER>
+> I chose to add to .gitignore. This is great for ignoring a specific file. If I were to add the folder to gitignore, then it would ignore anything I add to the `docs/images` folder, which could be very useful if I wanted to have an entire folder where everything in it was local-only. For example, if I use vscode, there is a default `.vscode` directory with editor config stuff. Since that's personal preference, I may not want it to be part of my repo. If I wanted to ignore all files of the type, then it would prevent all `.jpg` files from being staged. This means that I could choose a datatype, such as .docx, that doesn't work well with git and exclude them. It would also let me ignore things that are secret, like .env files, or maybe temporary data files if they are all .json.
 
 15. (1 pt) Please provide the URL to your (private) GitHub repository:
 
-<YOUR ANSWER>
+[Repo Link](https://github.com/gabishop88/dataskills-w3-bishop.git)
